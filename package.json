@@ -10,8 +10,18 @@
     "export": "next build && next export -o dist",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint --fix . --ext .ts,.tsx",
-    "clean": "rimraf dist .next"
+    "clean": "rimraf dist .next",
+    "browserslist": "browserslist"
   },
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 Edge versions",
+    "ie >= 11",
+    "android >= 5.0",
+    "iOS >= 10"
+  ],
   "dependencies": {
     "next": "9.5.5",
     "react": "16.14.0",

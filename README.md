@@ -66,3 +66,19 @@ yarn clean <= 削除(dist .next)ツール
 - .next <= ビルド出力（※yarn buildで自動出力）
 
 ※/src/はなくても可（他のフレームワークなどの慣習に則っている）
+
+--- 
+
+## package.json tools version upgrade
+
+first
+
+```bash
+yarn global add npm-check-updates
+```
+
+use
+
+```bash
+npm-check-updates -u
+```
